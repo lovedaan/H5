@@ -1,0 +1,44 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-27 21:55:24
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-27 22:02:20
+*/
+/* reset */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+i,em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; -webkit-appearance:none; border:none;}
+textarea { resize:none; overflow:auto; }
+button{ outline: none; border:none;}
+body { font-size:12px; font-family:'STHeiti','Microsoft YaHei',Helvetica,Arial,sans-serif; }
+html{
+    -webkit-text-size--adjust:100%;
+    -ms-text-size--adjust:100%;
+    text-size--adjust:100%;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+/* end reset */
+
+/* public */
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+ /*连续英文数字换行*/
+ .wordwrap{
+    word-break: break-all;
+    word-wrap: break-word;
+ }
+ /*单行文本出现显示省略点*/
+ .omg{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+ }
+ /* end public */
